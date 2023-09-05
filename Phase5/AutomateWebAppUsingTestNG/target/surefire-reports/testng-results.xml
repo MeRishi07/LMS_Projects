@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.simplilearn.com.TestNgExample3.AutomatewebapplicationTest" duration-ms="66574" started-at="2022-10-06T15:07:41 IST" finished-at="2022-10-06T15:08:48 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="66574" started-at="2022-10-06T15:07:41 IST" finished-at="2022-10-06T15:08:48 IST">
+      <class name="com.simplilearn.com.TestNgExample3.AutomatewebapplicationTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.simplilearn.com.TestNgExample3.AutomatewebapplicationTest@a7e666]" name="beforeMethod" is-config="true" duration-ms="23598" started-at="2022-10-06T15:07:41 IST" finished-at="2022-10-06T15:08:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="oracle()[pri:0, instance:com.simplilearn.com.TestNgExample3.AutomatewebapplicationTest@a7e666]" name="oracle" duration-ms="42879" started-at="2022-10-06T15:08:05 IST" finished-at="2022-10-06T15:08:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oracle -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.simplilearn.com.TestNgExample3.AutomatewebapplicationTest@a7e666]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-10-06T15:08:48 IST" finished-at="2022-10-06T15:08:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.simplilearn.com.TestNgExample3.AutomatewebapplicationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.simplilearn.com.TestNgExample3.AutomatewebapplicationTest -->
+</testng-results>
