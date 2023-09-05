@@ -7,53 +7,53 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class AutomatedWebApplication {
 	public static void main(String[] args) throws InterruptedException{
-		System.setProperty("webdriver.chrome.driver", "D:\\new ecclipse workspace\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\workspace\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://profile.oracle.com/myprofile/account/create-account.jspx");
 		driver.manage().window().maximize();
 		
 		Thread.sleep(1000);
 		WebElement email = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:email\\:\\:content"));
-		email.sendKeys("vamsipullagura@gmail.com");
+		email.sendKeys("saptarshipaul63@gmail.com");
 		Thread.sleep(1000);
 		
 		WebElement password = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:password\\:\\:content"));
-		password.sendKeys("Vyshi@1432");
+		password.sendKeys("Sanu@1234");
 		Thread.sleep(1000);
 		
 		WebElement repassword = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:retypePassword\\:\\:content"));
-		repassword.sendKeys("Vyshi@1432");
+		repassword.sendKeys("Sanu@1234");
 		Thread.sleep(1000);
 		
 		WebElement country = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:country\\:\\:content"));
 		country.sendKeys("India");
 		
 		WebElement firstname = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:firstName\\:\\:content"));
-		firstname.sendKeys("Vamsi");
+		firstname.sendKeys("Saptarshi");
 		
 		WebElement lastname = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:lastName\\:\\:content"));
-		lastname.sendKeys("Pullagura");
+		lastname.sendKeys("Paul");
 		
 		WebElement jobTitle = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:jobTitle\\:\\:content"));
-		jobTitle.sendKeys("SE");
+		jobTitle.sendKeys("ASE");
 		
 		WebElement workPhone = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:workPhone\\:\\:content"));
-		workPhone.sendKeys("9490096677");
+		workPhone.sendKeys("9876543210");
 		
 		WebElement companyName = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:companyName\\:\\:content"));
-		companyName.sendKeys("Vyshi Group ");
+		companyName.sendKeys("Mphasis");
 		
 		WebElement address = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:address1\\:\\:content"));
-		address.sendKeys("Flat no.26, Proddatur, Kadapa, Andhra Pradesh, India, 516360");
+		address.sendKeys("Vill- Chaktarini, PO- Salboni, PS- Salboni, Dist- Paschim Medinipur");
 		
 		WebElement city = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:city\\:\\:content"));
-		city.sendKeys("Proddatur");
+		city.sendKeys("Medinipur");
 		
 		WebElement state = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:state\\:\\:content"));
-		state.sendKeys("Andhra Pradesh");
+		state.sendKeys("West Bengal");
 		
 		WebElement pinCode = driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:postalCode\\:\\:content"));
-		pinCode.sendKeys("516 360");
+		pinCode.sendKeys("721147");
 		
 		Thread.sleep(1000);
 		WebElement register= driver.findElement(By.cssSelector("#sView1\\:r1\\:0\\:b1"));
